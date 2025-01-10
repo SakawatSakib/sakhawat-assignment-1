@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav-title>h2 {
+    color: rgb(14, 14, 14);
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.signIn-btn > .signin {
+    /* sign in button boder css  */
+    width: 106px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+
+    /* sign in button font css  */
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 14.3px;
+    font-weight: 510;
+}
