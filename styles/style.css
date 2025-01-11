@@ -6,22 +6,25 @@
 }
 
 header {
+
     border: 1px solid green;
     margin: 0 auto;
 
+
 }
+
 
 .nav-bar {
     display: flex;
     justify-content: space-around;
-    /* padding: 20px; */
+
     margin: 20px;
 }
 
-.nav-title>h1 {
+.nav-title> strong {
     color: rgb(14, 14, 14);
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 32px;
+    font-weight: bolder;
     margin-right: 515px;
 }
 
@@ -77,26 +80,43 @@ header {
     border-radius: 24px;
     background: rgb(198, 228, 214);
 
-    width: 1080px;
-    height: 476px;
+    width: 1000px;
+    height: 406px;
     margin: 0 auto;
+    padding: 40px;
     align-items: center;
     gap: 180px;
 
 }
 
-.banner-image>img {
-    width: 400 px;
-    height: 280px;
+/* error css----- .banner-image>img {
+    width: 300px;
+    height: 270px;
     transition: transform 0.5s ease-in-out;
 }
 
-/* hover effect for extra mark  */
+hover effect for extra mark  
 .banner-image:hover {
     transform: scale(1.2);
 
+} ---not in use */
+
+/* hover effect for extra mark  */
+.banner-image {
+    width: 310px;
+    height: 279px;
+
 }
 
+.banner-image img {
+    width: 100%;
+    transition: 1s;
+}
+
+.banner-image img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
 
 
 .banner-title {
@@ -135,6 +155,7 @@ header {
     padding: 15px 30px 15px 30px;
     border: none;
     transition: background-color 0.5s ease;
+    cursor: pointer;
 }
 
 /* hover effect on banner button for extra mark  */
@@ -142,7 +163,7 @@ header {
     background-color: rgb(243, 19, 19);
 }
 
-/* header section css end here  ------------------ */
+/* header section css end here  ----------X-------- */
 
 /* The vision of future section css  */
 .future-vision-container {
@@ -152,7 +173,7 @@ header {
     margin-top: 80px;
     align-items: center;
     gap: 180px;
-    /* background-color: rgb(225, 210, 240); */
+
 
 }
 
@@ -162,7 +183,7 @@ header {
     align-items: center;
     text-align: justify;
     gap: 30px;
-
+    
 
 }
 
@@ -172,15 +193,16 @@ header {
     width: 549px;
     height: 276px;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .energy {
-
     border-radius: 16px;
     background: rgb(198, 228, 214);
     width: 549px;
     height: 276px;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .infrastructure {
@@ -189,6 +211,7 @@ header {
     width: 549px;
     height: 276px;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .vision-title {
@@ -228,6 +251,14 @@ header {
     padding: 10px 15px 9px 15px;
     margin: 24px 0px;
     gap: 48;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+/* hover effect on sign in vision card buttons for extra mark  */
+.transformation-btn:hover {
+    background-color: rgb(87, 51, 146);
+    color: white;
 }
 
 .energy-btn {
@@ -248,6 +279,14 @@ header {
     padding: 10px 15px 9px 15px;
     margin: 24px 0px;
     gap: 48;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+/* hover effect on sign in vision card buttons for extra mark  */
+.energy-btn:hover {
+    background-color: rgb(162, 240, 36);
+    color: white;
 }
 
 .infrastructure-btn {
@@ -268,6 +307,14 @@ header {
     padding: 10px 15px 9px 15px;
     margin: 24px 0px;
     gap: 48;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+/* hover effect on sign in vision card buttons for extra mark  */
+.infrastructure-btn:hover {
+    background-color: rgb(247, 119, 14);
+    color: white;
 }
 
 /* for all vision section card titles  */
@@ -281,7 +328,7 @@ header {
     margin-top: 20px;
 }
 
-/* for all vision section card descriptions */
+/* for all vision section cards descriptions css */
 
 .vision-card-descriptions {
     color: rgba(14, 14, 14, 0.7);
@@ -292,15 +339,23 @@ header {
     text-align: left
 }
 
+/* yunus speech description css start here  */
+
 .future-vision-message {
-    margin-top: 20px;
+    width: 1088px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 40px;
     padding: 30px 25px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    width: 1088px;
-    height: 320px;
+    margin-top: 80px;
+    align-items: center;
+    gap: 180px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .yunus-speech {
@@ -324,7 +379,7 @@ header {
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 
 }
 
@@ -334,5 +389,134 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+
+}
+
+/* yunus speed description css end here  -------X--------- */
+
+
+/* recent news satelite starts here  */
+
+
+.recent-news-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(235, 162, 162);
+    margin-top: 80px;
+    align-items: center;
+    gap: 180px;
+}
+
+.recent-news-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 88px;
+
+}
+
+.recent-news-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+
+}
+
+/* common css for recent news three boxs  */
+.recent-news-boxs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin: 20px 0;
+    transition: background-color 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* hover effect on recent news button for extra mark  */
+.recent-news-boxs:hover {
+    background-color: rgb(170, 85, 144);
+}
+
+.recent-news-boxs h2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.recent-news-boxs p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 5px;
+}
+
+.recent-news-boxs button {
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+
+    width: 118px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 22px 11px 22px;
+    margin: 27px 0px;
+    color: white;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+/* hover effect on recent news button for extra mark  */
+.recent-news-boxs button:hover {
+    background-color: rgb(10, 3, 8);
+    color: white;
+}
+
+.news-box1-left img {
+    border-radius: 24px;
+    width: 346 px;
+    height: 260px;
+    margin: 0 27px;
+
+}
+
+.news-box2-right img {
+    border-radius: 24px;
+    width: 346 px;
+    height: 260px;
+    margin: 0 27px;
+
+}
+
+.news-box3-left img {
+    border-radius: 24px;
+    width: 346 px;
+    height: 260px;
+    margin: 0 27px;
 
 }
