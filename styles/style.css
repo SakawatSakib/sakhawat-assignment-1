@@ -8,20 +8,35 @@
 header {
     border: 1px solid green;
     margin: 0 auto;
-    
+
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    /* padding: 20px; */
+    margin: 20px;
 }
 
-.nav-title>h2 {
+.nav-title>h1 {
     color: rgb(14, 14, 14);
     font-size: 28px;
-    font-weight: bolder;
+    font-weight: 800;
+    margin-right: 515px;
 }
+/* nav title animation moving for extra mark  */
+.nav-title:hover{
+    
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+  }
+
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
 
 .signIn-btn>.signin {
     /* sign in button boder css  */
@@ -40,6 +55,12 @@ header {
     font-family: Fira Sans;
     font-size: 14.3px;
     font-weight: 510;
+    transition: background-color 0.5s ease;
+}
+ /* hover effect on sign in nav button for extra mark  */
+.signin:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
 }
 
 /* banner bangladesh 2.0 section css here */
@@ -54,10 +75,62 @@ header {
     margin: 0 auto;
     align-items: center;
     gap: 180px;
-   
+
 }
 
-.banner-image > img {
+.banner-image>img {
     width: 400 px;
-    height: 279px;
+    height: 280px;
+    transition: transform 0.5s ease;
 }
+ /* hover effect for extra mark  */
+.banner-image:hover  {
+    transform: scale(1.2);
+   
+  }
+  
+
+
+.banner-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 10px;
+
+}
+
+.idea-description {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 47px;
+    margin-bottom: 25px;
+}
+
+.banner-button {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    width: 229px;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    transition: background-color 0.5s ease;
+}
+/* hover effect on banner button for extra mark  */
+.banner-button:hover{
+    background-color: rgb(243, 19, 19);
+}
+ /* header section css end here  ------------------ */
+
