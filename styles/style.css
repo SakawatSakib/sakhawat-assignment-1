@@ -28,7 +28,7 @@ header {
     margin-right: 515px;
 }
 
-/* nav title animation moving for extra mark  */
+/* nav title animation moving for optional    */
 .nav-title:hover {
 
     position: relative;
@@ -36,7 +36,7 @@ header {
     animation-timing-function: linear;
 }
 
-
+  /*------- animation effect on nav bar optional  */
 @keyframes mymove {
     from {
         left: 0px;
@@ -48,7 +48,7 @@ header {
 }
 
 .signIn-btn>.signin {
-    /* sign in button boder css  */
+    /* -----------sign in button boder css  */
     width: 106px;
     height: 42px;
     display: flex;
@@ -59,7 +59,7 @@ header {
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
 
-    /* sign in button font css  */
+    /* -------------sign in button font css  */
     color: rgb(0, 106, 80);
     font-family: Fira Sans;
     font-size: 14.3px;
@@ -67,13 +67,13 @@ header {
     transition: background-color 0.5s ease;
 }
 
-/* hover effect on sign in nav button for extra mark  */
+/* hover effect on sign in nav button for => extra mark  */
 .signin:hover {
     background-color: rgb(0, 106, 80);
     color: white;
 }
 
-/* banner bangladesh 2.0 section css here */
+/* -----------------banner area bangladesh 2.0 section css here */
 .bangladesh-banner {
     display: flex;
     justify-content: center;
@@ -88,20 +88,6 @@ header {
     gap: 180px;
 
 }
-
-/* error css----- .banner-image>img {
-    width: 300px;
-    height: 270px;
-    transition: transform 0.5s ease-in-out;
-}
-
-hover effect for extra mark  
-.banner-image:hover {
-    transform: scale(1.2);
-
-} ---not in use */
-
-/* hover effect for extra mark  */
 .banner-image {
     width: 310px;
     height: 279px;
@@ -172,7 +158,7 @@ hover effect for extra mark
     height: 476px;
     margin-top: 80px;
     align-items: center;
-    gap: 180px;
+    
 
 
 }
@@ -190,28 +176,52 @@ hover effect for extra mark
 .transformation {
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
-    width: 549px;
-    height: 276px;
+    width: 539px;
+    height: 300px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: box-shadow 0.5s ease;
+    cursor: pointer;
+}
+
+/* hover effect on vision cards for extra mark  */
+.transformation:hover {
+    box-shadow: rgba(14, 97, 240, 0.24) 10px 16px 10px;
+
 }
 
 .energy {
     border-radius: 16px;
     background: rgb(198, 228, 214);
     width: 549px;
-    height: 276px;
+    height: 300px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: box-shadow 0.5s ease;
+    cursor: pointer;
+}
+
+/* hover effect on vision cards for extra mark  */
+.energy:hover {
+    box-shadow: rgba(43, 245, 218, 0.24) 10px 16px 10px;
+
 }
 
 .infrastructure {
     border-radius: 16px;
     background: rgb(247, 235, 207);
     width: 549px;
-    height: 276px;
+    height: 300px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: box-shadow 0.5s ease;
+    cursor: pointer;
+}
+
+/* hover effect on vision cards for extra mark  */
+.infrastructure:hover {
+    box-shadow: rgba(233, 17, 17, 0.24) 10px 16px 10px;
+
 }
 
 .vision-title {
@@ -240,17 +250,16 @@ hover effect for extra mark
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
+   
     width: 103px;
     height: 34px;
     display: flex;
-    flex-direction: row;
+    
     justify-content: center;
-    align-items: center;
+    
     padding: 10px 15px 9px 15px;
     margin: 24px 0px;
-    gap: 48;
+    
     transition: background-color 0.5s ease;
     cursor: pointer;
 }
@@ -268,17 +277,16 @@ hover effect for extra mark
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
+    
     width: 103px;
     height: 34px;
     display: flex;
-    flex-direction: row;
+    
     justify-content: center;
     align-items: center;
     padding: 10px 15px 9px 15px;
     margin: 24px 0px;
-    gap: 48;
+    
     transition: background-color 0.5s ease;
     cursor: pointer;
 }
@@ -296,17 +304,13 @@ hover effect for extra mark
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
     width: 103px;
     height: 34px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px 15px 9px 15px;
     margin: 24px 0px;
-    gap: 48;
     transition: background-color 0.5s ease;
     cursor: pointer;
 }
@@ -409,16 +413,12 @@ hover effect for extra mark
 .recent-news-container {
     width: 80%;
     margin: 0 auto;
-    /* margin-top: 40px; */
-
-    box-sizing: border-box;
-    /* border: 1px solid rgba(14, 14, 14, 0.15); */
+    
     border-radius: 16px;
-    /* background: rgb(235, 162, 162); */
     margin-top: 80px;
     margin-bottom: 90px;
     align-items: center;
-    gap: 180px;
+   
 }
 
 .recent-news-title {
@@ -476,17 +476,9 @@ hover effect for extra mark
 
 .recent-news-boxs button {
     border-radius: 8px;
-
     background: rgb(0, 106, 80);
-
     width: 118px;
     height: 40px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 48;
     padding: 11px 22px 11px 22px;
     margin: 27px 0px;
     color: white;
@@ -495,7 +487,6 @@ hover effect for extra mark
     font-family: Fira Sans;
     font-size: 15px;
     font-weight: 500;
-    line-height: 18px;
     transition: background-color 0.5s ease;
     cursor: pointer;
 }
@@ -530,7 +521,7 @@ hover effect for extra mark
 
 }
 
-/* donate part css here  */
+/* ----------------donate part css here  */
 .donate-container {
 
     display: flex;
@@ -542,19 +533,13 @@ hover effect for extra mark
     height: 450px;
     margin: 0 auto;
     transition: background-color 0.5s ease;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     border-radius: 5px;
     padding: 10x;
     transition: background-color 0.5s ease;
-    cursor: pointer;
+    
 }
 
-/* hover effect on recent news button for extra mark  */
-.donate-container:hover {
-    /* background-color: rgb(221, 186, 211); */
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    color: white;
-}
+
 
 .donate-description h1 {
     color: rgb(14, 14, 14);
@@ -599,7 +584,7 @@ hover effect for extra mark
     background-color: rgb(58, 143, 108);
     color: rgb(116, 95, 95);
 }
-
+/* i take this hover css  effect from internet for learning  */
 .money-buttons:hover> :not(:hover) {
     filter: blur(5px);
     opacity: 0.5;
@@ -610,23 +595,18 @@ hover effect for extra mark
 
     width: 877px;
     height: 54px;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-
     border: none;
-
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
-
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
     font-size: 17px;
     font-weight: 400;
-    line-height: 20px;
     margin-top: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     outline: none;
@@ -853,11 +833,16 @@ footer {
     text-align: start
 }
 
+/* this css is for the all cards icon images  */
 .pillar-cards img {
     width: 50px;
     height: 45px;
 }
 
+.future-vision-cards img{
+    width: 50px;
+    height: 50px;
+}
 /* opinio area css start here ------------ */
 .opinion-container h1{
     margin: 70px 0 20px 130px;
@@ -909,7 +894,7 @@ td {
 
 .table-col2 {
     width: 170px;
-    height: 17px;
+    height: 28px;
 
     text-align: center;
 
@@ -923,7 +908,7 @@ select {
     background: rgb(198, 228, 214);
 
     width: 129px;
-    height: 37px;
+    height: 47px;
 
 
     justify-content: center;
