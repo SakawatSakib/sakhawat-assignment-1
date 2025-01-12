@@ -401,13 +401,14 @@ hover effect for extra mark
 .recent-news-container {
     width: 80%;
     margin: 0 auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 
     box-sizing: border-box;
     /* border: 1px solid rgba(14, 14, 14, 0.15); */
     border-radius: 16px;
     /* background: rgb(235, 162, 162); */
     margin-top: 80px;
+    margin-bottom: 90px;
     align-items: center;
     gap: 180px;
 }
@@ -535,15 +536,15 @@ hover effect for extra mark
     transition: background-color 0.5s ease;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     border-radius: 5px;
-    padding: 10px;
+    padding: 10x;
     transition: background-color 0.5s ease;
     cursor: pointer;
 }
 
 /* hover effect on recent news button for extra mark  */
 .donate-container:hover {
-    background-color: rgb(221, 186, 211);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: rgb(221, 186, 211); */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     color: white;
 }
 
@@ -579,7 +580,7 @@ hover effect for extra mark
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0%;
-    margin: 10px 5px;
+    margin: 5px 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: background-color 0.5s ease;
     cursor: pointer;
@@ -589,6 +590,12 @@ hover effect for extra mark
 .money-buttons button:hover {
     background-color: rgb(58, 143, 108);
     color: rgb(116, 95, 95);
+}
+
+.money-buttons:hover> :not(:hover) {
+    filter: blur(5px);
+    opacity: 0.5;
+
 }
 
 .amount input {
@@ -614,6 +621,7 @@ hover effect for extra mark
     line-height: 20px;
     margin-top: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    outline: none;
 
 }
 
@@ -652,4 +660,69 @@ hover effect for extra mark
 .done-button button:hover {
     background-color: rgb(216, 49, 49);
     color: white;
+}
+
+
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    width: 935px;
+    height: 135px;
+    padding: 80px 85px 80px 85px;
+    margin-top: 68px;
+}
+
+.newsletter-content h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 80px;
+
+
+}
+
+.newsletter-content p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+
+.newsletter-content input {
+    width: 510px;
+    height: 46px;
+    border-radius: 8px 0px 0px 8px;
+
+    background: rgb(255, 255, 255);
+    border: none;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.newsletter-content button {
+    width: 127px;
+    height: 47px;
+    border-radius: 0px 8px 8px 0px;
+
+    background: rgb(0, 106, 80);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+
 }
